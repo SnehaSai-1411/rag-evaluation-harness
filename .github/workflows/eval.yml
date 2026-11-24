@@ -1,0 +1,29 @@
+name: eval
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test-and-eval:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run tests
+        run: pytest -q
+
+      - name: Run eval with threshold gate
+        # Fails the build if mean faithfulness or answer_relevance drops
+        # below config/thresholds.json. Runs fully offline (no API key).
+        run: python -m eval_harness.run --dataset data/golden.jsonl --check-thresholds

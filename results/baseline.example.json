@@ -1,0 +1,337 @@
+{
+  "mean": {
+    "faithfulness": 1.0,
+    "answer_relevance": 0.8958,
+    "context_precision": 0.6167,
+    "context_recall": 0.9416
+  },
+  "per_question": [
+    {
+      "id": "chunking-01",
+      "question": "What is chunking in a RAG system?",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 0.6666666666666666,
+      "context_recall": 1.0
+    },
+    {
+      "id": "chunking-02",
+      "question": "How does fixed-size chunking work?",
+      "faithfulness": 1.0,
+      "answer_relevance": 0.75,
+      "context_precision": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "id": "chunking-03",
+      "question": "How does recursive chunking work?",
+      "faithfulness": 1.0,
+      "answer_relevance": 0.6666666666666666,
+      "context_precision": 0.3333333333333333,
+      "context_recall": 0.9411764705882353
+    },
+    {
+      "id": "chunking-04",
+      "question": "What is chunk overlap and why use it?",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 1.0,
+      "context_recall": 0.9230769230769231
+    },
+    {
+      "id": "chunking-05",
+      "question": "What are the trade-offs of small chunks?",
+      "faithfulness": 1.0,
+      "answer_relevance": 0.5,
+      "context_precision": 0.6666666666666666,
+      "context_recall": 1.0
+    },
+    {
+      "id": "chunking-06",
+      "question": "What are the trade-offs of large chunks?",
+      "faithfulness": 1.0,
+      "answer_relevance": 0.5,
+      "context_precision": 0.3333333333333333,
+      "context_recall": 1.0
+    },
+    {
+      "id": "chunking-07",
+      "question": "What is semantic chunking?",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 0.3333333333333333,
+      "context_recall": 0.9285714285714286
+    },
+    {
+      "id": "chunking-08",
+      "question": "What metadata should a chunk record?",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 0.6666666666666666,
+      "context_recall": 1.0
+    },
+    {
+      "id": "chunking-09",
+      "question": "Why should text be cleaned before chunking?",
+      "faithfulness": 1.0,
+      "answer_relevance": 0.75,
+      "context_precision": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "id": "chunking-10",
+      "question": "Is there a single best chunk size?",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 1.0,
+      "context_recall": 0.42857142857142855
+    },
+    {
+      "id": "embeddings-01",
+      "question": "What is an embedding?",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 0.0,
+      "context_recall": 1.0
+    },
+    {
+      "id": "embeddings-02",
+      "question": "How are embedding models trained?",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 1.0,
+      "context_recall": 0.9473684210526315
+    },
+    {
+      "id": "embeddings-03",
+      "question": "What is embedding dimensionality?",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 0.3333333333333333,
+      "context_recall": 1.0
+    },
+    {
+      "id": "embeddings-04",
+      "question": "What is cosine similarity?",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 1.0,
+      "context_recall": 0.9375
+    },
+    {
+      "id": "embeddings-05",
+      "question": "What is sentence-transformers?",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 0.3333333333333333,
+      "context_recall": 1.0
+    },
+    {
+      "id": "embeddings-06",
+      "question": "What are the trade-offs of local embedding models?",
+      "faithfulness": 1.0,
+      "answer_relevance": 0.6,
+      "context_precision": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "id": "embeddings-07",
+      "question": "What are the trade-offs of API embedding models?",
+      "faithfulness": 1.0,
+      "answer_relevance": 0.8,
+      "context_precision": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "id": "embeddings-08",
+      "question": "Why must the same embedding model be used for indexing and querying?",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 0.6666666666666666,
+      "context_recall": 1.0
+    },
+    {
+      "id": "embeddings-09",
+      "question": "How does domain affect embedding quality?",
+      "faithfulness": 1.0,
+      "answer_relevance": 0.75,
+      "context_precision": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "id": "embeddings-10",
+      "question": "Why normalize embeddings before storage?",
+      "faithfulness": 1.0,
+      "answer_relevance": 0.75,
+      "context_precision": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "id": "vector-search-01",
+      "question": "What is vector search?",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "id": "vector-search-02",
+      "question": "How does exact nearest-neighbor search work?",
+      "faithfulness": 1.0,
+      "answer_relevance": 0.8,
+      "context_precision": 0.6666666666666666,
+      "context_recall": 1.0
+    },
+    {
+      "id": "vector-search-03",
+      "question": "What is approximate nearest neighbor search?",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 0.3333333333333333,
+      "context_recall": 0.9333333333333333
+    },
+    {
+      "id": "vector-search-04",
+      "question": "What is HNSW?",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 0.0,
+      "context_recall": 1.0
+    },
+    {
+      "id": "vector-search-05",
+      "question": "What does a vector index store?",
+      "faithfulness": 1.0,
+      "answer_relevance": 0.6666666666666666,
+      "context_precision": 0.3333333333333333,
+      "context_recall": 0.6666666666666666
+    },
+    {
+      "id": "vector-search-06",
+      "question": "What is top-k retrieval?",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 0.6666666666666666,
+      "context_recall": 1.0
+    },
+    {
+      "id": "vector-search-07",
+      "question": "What is Chroma?",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 0.0,
+      "context_recall": 0.4666666666666667
+    },
+    {
+      "id": "vector-search-08",
+      "question": "What is metadata filtering?",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 0.3333333333333333,
+      "context_recall": 1.0
+    },
+    {
+      "id": "vector-search-09",
+      "question": "What is a weakness of vector search?",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "id": "vector-search-10",
+      "question": "What determines relevance in vector search?",
+      "faithfulness": 1.0,
+      "answer_relevance": 0.75,
+      "context_precision": 0.6666666666666666,
+      "context_recall": 0.8823529411764706
+    },
+    {
+      "id": "retrieval-evaluation-01",
+      "question": "What is retrieval in a RAG system?",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 0.6666666666666666,
+      "context_recall": 1.0
+    },
+    {
+      "id": "retrieval-evaluation-02",
+      "question": "How does top-k affect precision and recall?",
+      "faithfulness": 1.0,
+      "answer_relevance": 0.8,
+      "context_precision": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "id": "retrieval-evaluation-03",
+      "question": "What is reranking?",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 0.0,
+      "context_recall": 0.875
+    },
+    {
+      "id": "retrieval-evaluation-04",
+      "question": "What is a golden dataset?",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 0.6666666666666666,
+      "context_recall": 0.7333333333333333
+    },
+    {
+      "id": "retrieval-evaluation-05",
+      "question": "What is context precision?",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "id": "retrieval-evaluation-06",
+      "question": "What is context recall?",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 0.6666666666666666,
+      "context_recall": 1.0
+    },
+    {
+      "id": "retrieval-evaluation-07",
+      "question": "What is faithfulness?",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 0.0,
+      "context_recall": 1.0
+    },
+    {
+      "id": "retrieval-evaluation-08",
+      "question": "What is answer relevance?",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 0.6666666666666666,
+      "context_recall": 1.0
+    },
+    {
+      "id": "retrieval-evaluation-09",
+      "question": "What is LLM-as-judge evaluation?",
+      "faithfulness": 1.0,
+      "answer_relevance": 1.0,
+      "context_precision": 0.3333333333333333,
+      "context_recall": 1.0
+    },
+    {
+      "id": "retrieval-evaluation-10",
+      "question": "Why put evaluation in continuous integration?",
+      "faithfulness": 1.0,
+      "answer_relevance": 0.75,
+      "context_precision": 0.3333333333333333,
+      "context_recall": 1.0
+    }
+  ],
+  "config": {
+    "dataset": "data/golden.jsonl",
+    "chunk_size": 800,
+    "top_k": 3,
+    "judge": "none",
+    "n_questions": 40
+  }
+}

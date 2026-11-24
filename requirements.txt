@@ -1,0 +1,5 @@
+pytest
+rank-bm25
+anthropic
+openai
+python-dotenv
